@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+    <link rel="stylesheet" href="../estilos/css/estilos.css">
+</head>
+<body>
+    <header id="nav" class="header">
+        <a href="#"><img src="../img/logo probable.png" alt="logo de la empresa" class="header__logo"></a>
+        <nav class="header__nav">
+            <ul class="header__list">
+                <li class="header__item">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="header__item">
+                    <a href="./contacto.html">Contacto</a>
+                </li>
+                <li class="header__item">
+                    <a href="./promociones.html">Promociones</a>
+                </li>
+                <li class="header__item">
+                    <a href="./servicios.html">Servicios</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="section_map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3825515659432!2d-74.80123558529989!3d10.934447959247157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef5d2be1b91c043%3A0xf1e976d7c28e4bf6!2sCl.%2045%20%232B-46%2C%20Barranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses!2sco!4v1664307495948!5m2!1ses!2sco" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <main class="main_contact">
+    <div class="contact">
+        <form action="#" method="get" enctype="text/plain">
+            <div class="input_container">
+                <label for="name">Nombre y Apellido</label>
+                <input type="text" name="name" id="name" placeholder="Nombre y Apellido" required>
+            </div>
+            <div class="input_container">
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" required>
+            </div>
+            <div class="input_container">
+                <label for="age">Edad</label>
+                <input type="number" name="age" id="age" min="1" max="100">
+            </div>
+            <div class="input_container">
+                <label for="date">Fecha de Nacimiento</label>
+                <input type="date" name="date" id="date" min="1990-01-01">
+            </div>
+            <div class="transition">
+                <button class="btn_contact">
+                    Agendar
+                </button>
+            </div>
+        </form>
+    </main>
+        
+    <footer class="footer">
+            <h6 class="footer_h6"> Siguenos en Redes Sociales </h6>
+    <div class="img_footer">
+            <img src="../img/facebook-color.svg" alt="facebook">
+            <img src="../img/instagram-color.svg" alt="instagram">
+            <img src="../img/pinterest-color.svg" alt="pinterest">
+    </div>
+    </footer>
+</body>
+
+</html

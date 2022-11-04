@@ -1,0 +1,42 @@
+.btn{
+    padding: 0,9rem 0,9rem;
+    border-style: none;
+    font-weight: 800;
+    color: black;
+    border: solid $color-pink;
+    border-radius: 0,9rem;
+    cursor: pointer;
+    &_contact:hover {
+        width: 70px;
+        background-color: $color-pink;
+        background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(230,198,223,1) 80%);;
+    }
+    &_services {
+        padding: 0,9rem 0,9rem;
+        border-style: none;
+        font-weight: 800;
+        color: black;
+        border: solid $color-pink;
+        border-radius: 0,9rem;
+        cursor: pointer;
+    }
+    &_services:hover {
+        width: 70px;
+        background-color: $color-pink;
+        background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(230,198,223,1) 80%);;
+    }
+    &_promotion {
+        padding: 0,9rem 0,9rem;
+        border-style: none;
+        font-weight: 800;
+        color: black;
+        border: solid $color-pink;
+        border-radius: 0,9rem;
+        cursor: pointer;
+    }
+    &_promotion:hover {
+        width: 70px;
+        background-color: $color-pink;
+        background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(230,198,223,1) 80%);;
+    }
+}

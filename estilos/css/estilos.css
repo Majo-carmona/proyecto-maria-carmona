@@ -74,7 +74,7 @@ div.transition_promotion {
 
 .contact > form {
   width: 50%;
-  max-width: 300px;
+  max-width: 400px;
   border-style: none;
 }
 
@@ -114,7 +114,7 @@ div.transition {
 
 .map {
   width: 50%;
-  max-width: 500px;
+  max-width: 220px;
 
 }
 
@@ -230,7 +230,9 @@ div.transition {
 
 .promotion {
   display: flex;
-  justify-content: space-evenly;
+  margin: 2rem 0;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .promotion > img {
@@ -278,7 +280,7 @@ div.transition {
   font-size: 0.5rem;
   text-align: center;
 }
-.footer_h6{
+.footer__h6{
   text-align: center;
   margin: 1rem 0;
   font-size: 0.8rem;

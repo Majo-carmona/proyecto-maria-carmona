@@ -1,0 +1,32 @@
+.services {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: center;
+    &_services > img {
+    border-radius: 2rem;
+    border: solid rgb(239, 199, 206);
+    border-width: 4px;
+    margin-right: 2rem;
+    }
+    &_services > .lorem_services > p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+    &_h5_title{
+    text-align: center;
+    margin: 4rem 0;
+    font-size: 1rem;
+    background-color: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(230,198,223,1) 80%);;
+    color: black;
+    }
+    &_img_servi{
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 3rem;
+    border-width: 4px;
+    margin-right: 2rem;
+    border: solid rgb(239, 199, 206);
+    }
+}

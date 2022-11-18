@@ -369,6 +369,12 @@ div.transition {
   .img_servi {
     width: 250px;
   }
+  .promotion .col-lg-3 {
+    order: 1;
+  }
+  .promotion .lorem_promotion {
+    order: 2;
+  }
 }
 
 

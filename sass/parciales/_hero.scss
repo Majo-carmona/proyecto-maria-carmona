@@ -1,0 +1,14 @@
+h3.hero__text {
+    position: absolute;
+    background-color:rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 21%, rgba(230,198,223,1) 80%);;
+    font-family: "messiri", sans-serif;
+    font-size: 60px;
+    &_img#hero__img {
+    width: 100%;
+    overflow: auto;
+    }
+    &_img {
+    width: 350px;
+    }
+}

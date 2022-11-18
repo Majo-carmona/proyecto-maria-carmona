@@ -10,4 +10,10 @@
         margin: 1rem 0;
         font-size: 0.8rem;
     }
+    &_div > img{
+        object-fit: contain;
+        height: 40px;
+        border-radius: 1rem;
+        border-width: 2px;
+    }
 }

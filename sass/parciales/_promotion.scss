@@ -1,0 +1,24 @@
+.promotion {
+    display: flex;
+    margin: 2rem 0;
+    align-items: center;
+    justify-content: space-around;
+    &_promotion > img {
+    border-radius: 2rem;
+    border: solid rgb(239, 199, 206);
+    border-width: 4px;
+    margin-right: 2rem;
+    }
+    &_promotion > .lorem_promotion > p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    }
+    &_img_promotion{
+    object-fit: contain;
+    max-width: 100%;
+    border-radius: 3rem;
+    border-width: 4px;
+    margin-right: 2rem;
+    border: solid rgb(239, 199, 206);
+    }
+}

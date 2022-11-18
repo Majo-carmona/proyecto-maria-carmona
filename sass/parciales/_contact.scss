@@ -1,0 +1,21 @@
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    &_contact > form {
+    width: 50%;
+    max-width: 400px;
+    border-style: none;
+    }
+    &_input_container {
+    display: grid;
+    flex-direction: column;
+    margin-bottom: 1.5rem;
+    }
+    &_input_container > input {
+    width: 100%;
+    margin-top: 0.9rem;
+    padding: 0.2rem 0;
+    border-width: 2px;
+    border-radius: 1rem;
+    }
+}

@@ -264,4 +264,8 @@ h3.hero__text {
   .promotion .col-lg-3 {
     order: 1; }
   .promotion .lorem_promotion {
+    order: 2; }
+  .services .col-lg-3 {
+    order: 1; }
+  .services .lorem_promotion {
     order: 2; } }
